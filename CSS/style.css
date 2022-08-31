@@ -1,0 +1,72 @@
+# resume_Prozorova
+*,
+:before;
+:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+<style>
+	head {
+   	background-color: #DCDCDC; 
+   	color: Black; 
+   } 
+	 body {
+   	background-color: #DCDCDC;
+   	color: Black;
+   	margin: 3%;
+   	padding: 5px;
+   	font-family: Courier New;
+   } 
+   h1,
+   h2,
+   h3 {
+    background-color: RGB(192, 192, 192);
+    color: Black;
+   }
+   p {
+    background-color: #F0F8FF;
+    color: Black; 
+   }
+   ul {background-color: RGB(211, 211, 211); 
+    color: Black; 
+   }
+    a {background-color: RGB(211, 211, 211);
+    color: #2F4F4F;
+    font-family: Gill Sans;
+   }
+   h1 {
+   	margin: 1%;
+   	text-align: center;
+   }
+   h2 {
+   	margin: 1%;
+   	text-align: center;
+   }
+  .niz,
+  .hd,
+  .SoftS,
+  .Text_niz {
+  	text-align: right;
+  }
+  .image-border {
+  	border: 10px solid; #2F4F4F;
+  }
+  .text-justify { 
+    text-align: justify;
+   } 
+ .text-flicker {
+  animation: flicker 2s infinite;
+  color: #2F4F4F;
+}
+  @keyframes flicker {
+    from { opacity: 7; /* Непрозрачный текст */ }
+    to { opacity: 0; /* Прозрачный текст */ }
+}
+.shr{
+	font-family: Snell Roundhand;
+	text-align: left;
+	background-color: #DCDCDC;
+}
+</style>
+
